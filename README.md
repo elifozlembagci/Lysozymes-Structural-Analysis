@@ -37,7 +37,7 @@ A complete structural bioinformatics workflow applied to hen egg-white lysozyme 
 
 #### How to Run
 
-1. Open `lysozyme-structural-analysis.ipynb` in Google Colab or Jupyter
+1. Open `lysozyme_structural_analysis.ipynb` in Google Colab or Jupyter
 2. Run cells sequentially from top to bottom
 3. Cell 0 installs all dependencies automatically
 
@@ -76,7 +76,7 @@ RCSB Protein Data Bank'tan alınan gerçek X-ray kristalografi verisi kullanıla
 
 #### Nasıl Çalıştırılır
 
-1. `lysozyme-structural-analysis.ipynb` dosyasını Google Colab veya Jupyter'da açın
+1. `lysozyme_structural_analysis.ipynb` dosyasını Google Colab veya Jupyter'da açın
 2. Hücreleri yukarıdan aşağıya sırayla çalıştırın
 3. Cell 0 tüm bağımlılıkları otomatik olarak yükler
 
