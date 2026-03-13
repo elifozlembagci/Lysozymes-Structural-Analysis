@@ -1,5 +1,7 @@
 # lysozyme-structural-analysis
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/elifozlembagci/Lysozymes-Structural-Analysis/blob/main/lysozyme_structural_analysis.ipynb)
+
 > 🇬🇧 [English](#english) | 🇹🇷 [Türkçe](#türkçe)
 
 ---
@@ -30,6 +32,17 @@ A complete structural bioinformatics workflow applied to hen egg-white lysozyme 
 | Asp52 B-factor | 5.88 Å² (very rigid — consistent with stabilizer role) |
 | Glu35–Asp52 CA-CA distance | 9.34 Å |
 | Glu35–Asp52 side chain distance | 7.18 Å |
+
+#### Visualizations
+
+**B-factor Flexibility Map**
+![B-factor Analysis](bfactor_analysis.png)
+
+**Amino Acid Composition**
+![Amino Acid Composition](aa_composition.png)
+
+**Active Site Distance Map**
+![Active Site Distances](active_site_distances.png)
 
 #### Tools & Libraries
 
@@ -83,9 +96,11 @@ RCSB Protein Data Bank'tan alınan gerçek X-ray kristalografi verisi kullanıla
 ---
 
 ### Repository Structure
-
 ```
 lysozyme-structural-analysis/
-├── lysozyme-structural-analysis.ipynb     # Main analysis notebook
-└── README.md               # This file
+├── lysozyme_structural_analysis.ipynb
+├── bfactor_analysis.png
+├── aa_composition.png
+├── active_site_distances.png
+└── README.md
 ```
